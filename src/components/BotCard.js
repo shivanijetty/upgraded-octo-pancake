@@ -45,14 +45,8 @@ function BotCard({ bot }) {
           </span>
           <span>
             <div className="ui center aligned segment basic">
-              <button
-                className="ui mini red button"
-                onClick={() =>
-                  console.log("add code to connect event listener")
-                }
-              >
-                x
-              </button>
+              {/* <button
+                className="ui mini red button">x</button> */}
             </div>
           </span>
         </div>
